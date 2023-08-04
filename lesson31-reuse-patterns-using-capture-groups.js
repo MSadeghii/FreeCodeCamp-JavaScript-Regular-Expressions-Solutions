@@ -1,5 +1,3 @@
-//reuse-patterns-using-capture-groups
-
 let repeatNum = "42 42 42";
-let reRegex = /^(\d+)\s\1\s\1$/; // Change this line
+let reRegex = /^(\d+) \1 \1$/;
 let result = reRegex.test(repeatNum);
